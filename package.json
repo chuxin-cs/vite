@@ -1,0 +1,19 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "description": "vite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [
+    "vite",
+    "Vite",
+    "vite-plugins"
+  ],
+  "author": "云层上的光|初心",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.8"
+  }
+}
