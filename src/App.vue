@@ -1,11 +1,19 @@
 <template>
   <div>
-    <h1>vue</h1>
+    <h1>title</h1>
   </div>
 </template>
 
 <script>
-export default {
+import { ref, defineComponent } from "vue";
+export default defineComponent({
   name: "App",
-};
+  setup() {
+    const title = ref("Vite");
+
+    return {
+      title,
+    };
+  },
+});
 </script>
