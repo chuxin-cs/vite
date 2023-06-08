@@ -13,6 +13,13 @@ devDependencies:
   '@vitejs/plugin-vue':
     specifier: ^4.2.3
     version: registry.npmjs.org/@vitejs/plugin-vue@4.2.3(vite@4.3.8)(vue@3.3.4)
+  chalk:
+    specifier: ^5.2.0
+    version: registry.npmjs.org/chalk@5.2.0
+  os: {specifier: ^0.1.2, version: registry.npmjs.org/os@0.1.2}
+  qrcode-terminal:
+    specifier: ^0.12.0
+    version: registry.npmjs.org/qrcode-terminal@0.12.0
   vite:
     specifier: ^4.3.8
     version: registry.npmjs.org/vite@4.3.8
@@ -405,6 +412,13 @@ packages:
     name: '@vue/shared'
     version: 3.3.4
 
+  registry.npmjs.org/chalk@5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/chalk/-/chalk-5.2.0.tgz}
+    name: chalk
+    version: 5.2.0
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: true
+
   registry.npmjs.org/csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz}
     name: csstype
@@ -472,6 +486,12 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  registry.npmjs.org/os@0.1.2:
+    resolution: {integrity: sha512-ZoXJkvAnljwvc56MbvhtKVWmSkzV712k42Is2mA0+0KTSRakq5XXuXpjZjgAt9ctzl51ojhQWakQQpmOvXWfjQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/os/-/os-0.1.2.tgz}
+    name: os
+    version: 0.1.2
+    dev: true
+
   registry.npmjs.org/picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz}
     name: picocolors
@@ -486,6 +506,13 @@ packages:
       nanoid: registry.npmjs.org/nanoid@3.3.6
       picocolors: registry.npmjs.org/picocolors@1.0.0
       source-map-js: registry.npmjs.org/source-map-js@1.0.2
+
+  registry.npmjs.org/qrcode-terminal@0.12.0:
+    resolution: {integrity: sha512-EXtzRZmC+YGmGlDFbXKxQiMZNwCLEO6BANKXG4iCtSIM0yqc/pappSx3RIKr4r0uh5JsBckOXeKrB3Iz7mdQpQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.12.0.tgz}
+    name: qrcode-terminal
+    version: 0.12.0
+    hasBin: true
+    dev: true
 
   registry.npmjs.org/rollup@3.23.0:
     resolution: {integrity: sha512-h31UlwEi7FHihLe1zbk+3Q7z1k/84rb9BSwmBSr/XjOCEaBJ2YyedQDuM0t/kfOS0IxM+vk1/zI9XxYj9V+NJQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rollup/-/rollup-3.23.0.tgz}
