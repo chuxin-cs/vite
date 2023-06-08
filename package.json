@@ -4,7 +4,8 @@
   "description": "vite",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [
     "vite",
@@ -14,6 +15,10 @@
   "author": "云层上的光|初心",
   "license": "ISC",
   "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
     "vite": "^4.3.8"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
   }
 }
